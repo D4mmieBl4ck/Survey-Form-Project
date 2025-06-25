@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2023/10/10/06/41/chart-8305514_1280.jpg);
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(0, 0, 130);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 0.25rem;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="number"],
+select,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group>label:first-child {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkbox-group label:not(:first-child) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-weight: normal;
+    gap: 10px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin: 0;
+}
+
+.checkbox-group input[type="text"] {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
